@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grading System</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+   
+
+        <div class="container">
+            
+            <div class="sub-con">
+        <input type="text" placeholder="Enter name" id="name" required="true">
+        <h1 style="font-size: 50px; text-shadow: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif; margin-left: 30px; ">MOOR TECH ACADEMY <br>
+        <p style="text-align: center; color: orangered; font-size: 30px;
+        font-family: serif;">{coding is fun}</p></h1>
+        </div>
+        <div class="up"></div>
+        <div class="main">
+            <div class="label">
+            <label for="" style="color: orangered; font-size: 20px; font-family: Helvetica;">Math:</label>
+            <label for="" style="color: orangered; font-size: 20px; font-family: Helvetica;">English:</label>
+            <label for="" style="color: orangered; font-size: 20px; font-family: Helvetica;">Physics:</label>
+            <label for="" style="color: orangered; font-size: 20px; font-family: Helvetica;">Chemistry:</label>
+            </div>
+            <div class="inputs">
+                <input type="number" placeholder="1stCA" class="num" id="math-ca"><br>
+                <input type="number" placeholder="1stCA" class="num" id="eng-ca"><br>
+                <input type="number" placeholder="1stCA" class="num" id="phy-ca"><br>
+                <input type="number" placeholder="1stCA" class="num" id="chem-ca"><br>
+            </div>
+            <div class="inputs">
+                <input type="number" placeholder="2ndCA" class="num" id="math-ca2"><br>
+                <input type="number" placeholder="2ndCA" class="num" id="eng-ca2"><br>
+                <input type="number" placeholder="2ndCA" class="num" id="phy-ca2"><br>
+                <input type="number" placeholder="2ndCA" class="num" id="chem-ca2"><br>
+            </div>
+            <div class="inputs">
+                <input type="number" placeholder="Examination" class="num" id="math-exam"><br>
+                <input type="number" placeholder="Examination" class="num" id="eng-exam"><br>
+                <input type="number" placeholder="Examination" class="num" id="phy-exam"><br>
+                <input type="number" placeholder="Examination" class="num" id="chem-exam"><br>
+            </div>
+            <div class="inputs">
+                <button class="add-math" onclick="math()">ADD</button><br>
+                <button class="add-eng" onclick="eng()">ADD</button><br>
+                <button class="add-phy" onclick="phy()">ADD</button><br>
+                <button class="add-chem" onclick="chem()">ADD</button><br>
+            </div>
+            <div class="inputs">
+                <input type="number" placeholder="0" class="ans" id="math-answer" disabled><br>
+                <input type="number" placeholder="0" class="ans" id="eng-answer" disabled><br>
+                <input type="number" placeholder="0" class="ans" id="phy-answer" disabled><br>
+                <input type="number" placeholder="0" class="ans" id="chem-answer" disabled><br>
+
+            </div>
+        </div>
+        <div class="output">
+            <button class="grade" onclick="average()">Average</button>
+            <button class="grade" onclick="grade()">Grade</button>
+            <button class="grade" onclick="remark()">Remark</button>
+        </div>
+        </div>
+        <div class="down"></div>
+        <div class="footer">
+            <footer id="avg"></footer><br>
+            <footer id="gde"></footer><br>
+            <footer id="rmk"></footer>
+        </div> 
+        <script src="index.js"></script>
+        <div class="footer">
+            <footer><span> &copy;</span>2024</footer>
+           </div>
+</body>
+</html>
+

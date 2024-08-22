@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo{
+    background-color: rgb(207, 207, 207, 0.356);
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 5%;
+}
+#add{
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    width: 550px;
+    background: transparent;
+}
+.additems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+#addbtn{
+    padding: 16px 50px;
+    background: #dfb838bb;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+    /* margin-right: 25px;
+*/
+}
+ul li{
+    list-style: none;
+    font-size: 25px;
+    font-family: calbri;
+    cursor: pointer;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    position: relative;
+    background: #dfb838bb;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(IMG-20240816-WA0011.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+ul li.checked{
+    color: #c7c5c5;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image: url(IMG-20240816-WA0020.jpg);
+}
+h5{
+    text-align: center;
+    margin-bottom: 10px;
+    color: royalblue;
+}
+.todo-control{
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    margin-right: 5px;
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: blue;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50px;
+}
+ul li span :hover{
+    background: black;
+}
+footer{
+    text-align: center;
+    color: white ;
+    font-size: 20px;
+    font-family: courier new;
+}

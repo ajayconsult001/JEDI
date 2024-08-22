@@ -1,0 +1,41 @@
+.stopwatch {
+	width: 500px;
+	margin: 100px auto;
+	text-align: center;
+    color:black;
+    background-color: white
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 112, 114);
+}
+body{
+    background-color: lightblue
+}
+.display {
+	font-size: 48px;
+	font-family: Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+button {
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+#start-button {
+	background-color: red;
+	color: white;
+}
+
+#stop-button {
+	background-color: white;
+	color: black
+}
+
+#reset-button {
+	background-color: white;
+	color: black;
+}

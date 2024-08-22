@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(23, 24, 58);
+    color: white;
+}
+.sub-con{
+    display: flex;
+}
+#name::placeholder{
+    opacity: 100%;
+    color: orangered;
+    font-size: larger;
+    font-family: fantasy;
+}
+#name{
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    color: orangered;
+}
+.container{
+    margin: auto;
+    height: 600px;
+    width: 900px;
+    background: rgb(25, 25, 46);
+}
+.main{
+    display: flex;
+    gap: 5px;
+    margin: auto;
+}
+.label{
+    display: grid;
+    gap: 20px;
+    margin-left: 50px;
+}
+.inputs{
+    display: grid;
+    margin-left: 30px;
+}
+.inputs button{
+    width: 100px;
+    margin-top: 5%;
+    padding: 4%;
+    height: 44px;
+    cursor: pointer;
+}
+.num{
+    height: 40px;
+    width: 100px;
+}
+.ans{
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.ans::placeholder{
+    text-align: center;
+    opacity: 100%;
+    color: rgb(2, 117, 194);
+}
+.add{
+    margin-left: 15px;
+    height: 46px;
+    width: 60px;
+    padding: 10px;
+}
+.output{
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+.grade{
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    padding: 7px;
+    height: 50px;
+    width: 100px;
+    color: rgb(3, 3, 46);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grade:hover{
+    background-color: orangered;
+}
+.down{
+    height: 5px;
+    width: 1300px;
+    background-color: orangered;
+}
+.up{
+    margin-bottom: 30px;
+    height: 1px;
+    width: 900px;
+    background-color: orangered;
+}
+.footer{
+    display: grid;
+    margin: auto;
+    justify-content: center;
+}
+

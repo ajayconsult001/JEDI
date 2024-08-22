@@ -1,0 +1,26 @@
+
+    mg{
+    border-radius: 180px;
+    height: 60px;
+    size: 600px;
+    width: 60px;
+
+}
+.container
+{
+    border-radius: 40px;
+    background-color: rgb(199, 190, 190);
+    width: 450px;
+    margin:0 ;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid;
+}
+b{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
